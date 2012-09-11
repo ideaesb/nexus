@@ -105,7 +105,7 @@ $("#map area").hover(
  </div>
 
 
-   <p><i>This website was developed through the collaborative efforts of NOAA, NWF/ NALCC and NESCAUM</i> </p>
+   <p><i>This website was developed through the collaborative efforts of NOAA, NWF, NALCC and NESCAUM</i> </p>
   
 </div><!--ends middle-column-->
 <div id="right-column">
