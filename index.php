@@ -78,11 +78,11 @@ $("#map area").hover(
 
   <ul id="nav">
     <li id="nav-1"><a href="index.php"><span>&nbsp; HOME </span></a></li>
-    <li><a href="/needs" title="Needs"><span>Needs</span></a></li>
-    <li><a href="/dps" title="Data Products Services"><span>Data, Products &amp; Services</span></a></li>
-    <li><a href="/pna" title="Projects Activities"><span>Projects &amp; Activities</span></a></li>
-    <li><a href="/programs" title="Partners"><span>Programs &amp; Partners</span></a></li>
-    <li><a href="/bibs" title="Bibliography"><span>Bibliography</span></a></li>
+    <li><a href="nexus/needs" title="Needs"><span>Needs</span></a></li>
+    <li><a href="javascript:alert('Under Construction');" title="Data Products Services"><span>Data, Products &amp; Services</span></a></li>
+    <li><a href="javascript:alert('Under Construction');" title="Projects Activities"><span>Projects &amp; Activities</span></a></li>
+    <li><a href="javascript:alert('Under Construction');" title="Partners"><span>Programs &amp; Partners</span></a></li>
+    <li><a href="javascript:alert('Under Construction');" title="Bibliography"><span>Bibliography</span></a></li>
   </ul>
 
 
@@ -94,11 +94,11 @@ $("#map area").hover(
      
 <img src="images/map.jpg" id="nemap" width="350" height="317" border="0" usemap="#Map" />
 <map name="Map" id="map">
-    <area id="map-1" shape="poly" coords="70,11,70,72,79,91,95,94,114,106,131,107,132,112,164,112,177,100,180,90,188,75,193,71,198,74,206,74,210,80,210,100,217,111,235,136,278,112,304,95,349,66,350,-1,69,0,71,11,143,113" href="1">
-    <area id="map-2" shape="poly" coords="143,113,144,135,140,177,163,172,180,169,174,151,181,133,194,129,208,122,219,117,209,101,209,79,202,74,191,73,181,90,169,110,142,113" href="2">
-    <area id="map-3" shape="poly" coords="58,163,77,149,75,141,98,141,109,137,110,127,126,113,144,113,140,176,159,178,144,184,133,185,133,198,125,208,119,202,122,212,119,225,113,235,113,222,110,213,112,201,106,216,107,234,109,241,114,246,21,245,42,231,34,218,53,200,59,189,58,163" href="3">
-    <area id="map-4" shape="poly" coords="44,244,113,246,112,260,106,272,88,283,53,311,37,284,26,273,26,269,14,268,19,261,44,244" href="4">
-    <area id="map-5" shape="poly" coords="8,166,9,207,17,212,34,217,40,209,52,200,58,187,58,162,43,170,34,170,21,166,8,166" href="5">
+    <area id="map-1" shape="poly" coords="70,11,70,72,79,91,95,94,114,106,131,107,132,112,164,112,177,100,180,90,188,75,193,71,198,74,206,74,210,80,210,100,217,111,235,136,278,112,304,95,349,66,350,-1,69,0,71,11,143,113" href="javascript:alert('Under Construction');">
+    <area id="map-2" shape="poly" coords="143,113,144,135,140,177,163,172,180,169,174,151,181,133,194,129,208,122,219,117,209,101,209,79,202,74,191,73,181,90,169,110,142,113" href="javascript:alert('Under Construction');">
+    <area id="map-3" shape="poly" coords="58,163,77,149,75,141,98,141,109,137,110,127,126,113,144,113,140,176,159,178,144,184,133,185,133,198,125,208,119,202,122,212,119,225,113,235,113,222,110,213,112,201,106,216,107,234,109,241,114,246,21,245,42,231,34,218,53,200,59,189,58,163" href="javascript:alert('Under Construction');">
+    <area id="map-4" shape="poly" coords="44,244,113,246,112,260,106,272,88,283,53,311,37,284,26,273,26,269,14,268,19,261,44,244" href="javascript:alert('Under Construction');">
+    <area id="map-5" shape="poly" coords="8,166,9,207,17,212,34,217,40,209,52,200,58,187,58,162,43,170,34,170,21,166,8,166" href="javascript:alert('Under Construction');">
 </map>
 
      

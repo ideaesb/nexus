@@ -3,11 +3,11 @@
 
   <ul id="leftNavElements">
    <li id="leftNavAlerts"><a href="index.php">Home</a></li>
-   <li id="leftNavOrganizations"><a href="/needs">Needs</a></li>
-   <li id="leftNavOrganizations"><a href="/dps"><strong>Data and Products</strong></a></li>
-   <li id="leftNavOrganizations"><a href="/pna"><strong>Projects and Activities</strong></a></li>
-   <li id="leftNavOrganizations"><a href="/programs">Programs &amp; Partners</a></li>
-   <li id="leftNavOrganizations"><a href="/bibs">Bibliography</a></li>
+   <li id="leftNavOrganizations"><a href="nexus/needs" title="Climate information (data, products, services) requested by managers, decision-makers, and research scientists">Needs</a></li>
+   <li id="leftNavOrganizations"><a href="javascript:alert('Under Construction');" title="Existing climate resources, including (but not limited to) models, reports, vulnerability assessments, visualization/web tools, etc"><strong>Data and Products</strong></a></li>
+   <li id="leftNavOrganizations"><a href="javascript:alert('Under Construction');" title="Ongoing efforts such as climate-smart/adaptation initiatives, research projects, assessments, etc"><strong>Projects and Activities</strong></a></li>
+   <li id="leftNavOrganizations"><a href="javascript:alert('Under Construction');">Programs &amp; Partners</a></li>
+   <li id="leftNavOrganizations"><a href="javascript:alert('Under Construction');">Bibliography</a></li>
    <li id="leftNavOrganizations"><a href="http://www.noaaideacenter.org/rcsd/east/" target="_blank">Contact Us</a></li>
   </ul>
 
