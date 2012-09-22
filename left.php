@@ -15,9 +15,9 @@
 
   <div id ="pikoDefinition">
  
-   <b>nexus ['n&#603;ks&#601;s]<i> n pl nexus</i></b><br/>1. a means of connection between members of a group or things in a series; link; bond
-<br/>2. a connected group or series
-[from Latin: a binding together, from nectere to bind]
+   <b>nexus ['n&#603;ks&#601;s]<i> n pl nexus</i></b><br/><br/>
+   <p>1. a means of connection between members of a group or things in a series; link; bond</p>
+   <p>2. a connected group or series [from Latin: a binding together, from nectere to bind]</p>
 
 
    </div><!--end pikoDefinition-->
