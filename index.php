@@ -1,4 +1,26 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php
+ $conn = pg_connect("dbname=epiko user=postgres password=admin123");
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM need");
+ $needs = pg_fetch_result($result, 0, 0);
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM dap");
+ $daps = pg_fetch_result($result, 0, 0);
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM paw");
+ $paws = pg_fetch_result($result, 0, 0);
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM asmt");
+ $asmts = pg_fetch_result($result, 0, 0);
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM org");
+ $orgs = pg_fetch_result($result, 0, 0);
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM bib");
+ $bibs = pg_fetch_result($result, 0, 0);
+
+ pg_close ($conn);
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -78,11 +100,11 @@ $("#map area").hover(
 
   <ul id="nav">
     <li id="nav-1"><a href="index.php"><span>&nbsp; HOME </span></a></li>
-    <li><a href="nexus/needs" title="Needs"><span>Needs</span></a></li>
-    <li><a href="javascript:alert('Under Construction');" title="Data Products Services"><span>Data, Products &amp; Services</span></a></li>
-    <li><a href="javascript:alert('Under Construction');" title="Projects Activities"><span>Projects &amp; Activities</span></a></li>
-    <li><a href="javascript:alert('Under Construction');" title="Partners"><span>Programs &amp; Partners</span></a></li>
-    <li><a href="javascript:alert('Under Construction');" title="Bibliography"><span>Bibliography</span></a></li>
+    <li><a href="nexus/needs" title="Needs (<?php echo $needs ?>)"><span>Needs</span></a></li>
+    <li><a href="javascript:alert('Under Construction');" title="Data, Products &amp; Services (<?php echo $daps ?> )"><span>Data, Products &amp; Services</span></a></li>
+    <li><a href="javascript:alert('Under Construction');" title="Projects &amp; Activities (<?php echo $paws ?> )"><span>Projects &amp; Activities</span></a></li>
+    <li><a href="javascript:alert('Under Construction');" title="Partners &amp; Programs (<?php echo $orgs ?>)"><span>Programs &amp; Partners</span></a></li>
+    <li><a href="javascript:alert('Under Construction');" title="Bibliography (<?php echo $bibs ?>)"><span>Bibliography</span></a></li>
   </ul>
 
 
