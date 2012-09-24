@@ -323,7 +323,7 @@ img
 
 #midde-column {
 	width:350px;
-	height:570px;
+	height:500px;
 	margin: 0; /* the auto margins (in conjunction with a width) center the page */
 	font-size: 14px;
 	line-height:18px;
@@ -350,7 +350,7 @@ img
 
 #right-column { 
 	width: 225px; 
-	height:520px;
+	height:500px;
 	float: left; 
 	padding-left:25px;
 	padding-top:12px;
@@ -361,7 +361,7 @@ img
 	float:left;
 	width:128px;
 	background-color: #CCC;
-	padding:30px 10px 67px 20px;
+	padding:20px 10px 20px 20px;
 	margin-top:0;
 }
 
@@ -410,17 +410,6 @@ img
 	padding-bottom:10px;
 }
 
-
-
-/*for programs page only*/
-#programContainer {
-	width: 725px;
-	height: 650px; /*27*/
-	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
-/*	overflow:scroll;   ---  this is the code to make the container scrollable */	
-	overflow-y: scroll;
-    overflow-x: hidden;
-} 
 
 #browse-box {font-size:12px;width:400px;text-align:left;}  /*border:1px solid black   removed by cameron 7/5 */
 .title-blue{background:#d1e8f7; font-weight:bold;text-align:center;border:1px solid black;font-size:12px;white-space:nowrap;
