@@ -1,4 +1,7 @@
 <?php
+  header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+  header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+
  $conn = pg_connect("dbname=epiko user=postgres password=admin123");
 
  $result=pg_query($conn, "SELECT COUNT(*) FROM need");
@@ -101,8 +104,8 @@ $("#map area").hover(
   <ul id="nav">
     <li id="nav-1"><a href="index.php"><span>&nbsp; HOME </span></a></li>
     <li><a href="nexus/needs" title="Needs (<?php echo $needs ?>)"><span>Needs</span></a></li>
-    <li><a href="javascript:alert('Under Construction');" title="Data, Products &amp; Services (<?php echo $daps ?> )"><span>Data, Products &amp; Services</span></a></li>
-    <li><a href="javascript:alert('Under Construction');" title="Projects &amp; Activities (<?php echo $paws ?> )"><span>Projects &amp; Activities</span></a></li>
+    <li><a href="nexus/daps" title="Data, Products &amp; Services (<?php echo $daps ?> )"><span>Data, Products &amp; Services</span></a></li>
+    <li><a href="nexus/paws" title="Projects &amp; Activities (<?php echo $paws ?> )"><span>Projects &amp; Activities</span></a></li>
     <li><a href="javascript:alert('Under Construction');" title="Partners &amp; Programs (<?php echo $orgs ?>)"><span>Programs &amp; Partners</span></a></li>
     <li><a href="javascript:alert('Under Construction');" title="Bibliography (<?php echo $bibs ?>)"><span>Bibliography</span></a></li>
   </ul>
