@@ -106,8 +106,8 @@ $("#map area").hover(
     <li><a href="nexus/needs" title="Needs (<?php echo $needs ?>)"><span>Needs</span></a></li>
     <li><a href="nexus/daps" title="Data, Products &amp; Services (<?php echo $daps ?> )"><span>Data, Products &amp; Services</span></a></li>
     <li><a href="nexus/paws" title="Projects &amp; Activities (<?php echo $paws ?> )"><span>Projects &amp; Activities</span></a></li>
-    <li><a href="javascript:alert('Under Construction');" title="Partners &amp; Programs (<?php echo $orgs ?>)"><span>Programs &amp; Partners</span></a></li>
-    <li><a href="javascript:alert('Under Construction');" title="Bibliography (<?php echo $bibs ?>)"><span>Bibliography</span></a></li>
+    <li><a href="nexus/orgs" title="Partners &amp; Programs (<?php echo $orgs ?>)"><span>Programs &amp; Partners</span></a></li>
+    <li><a href="nexus/bibs" title="Bibliography (<?php echo $bibs ?>)"><span>Bibliography</span></a></li>
   </ul>
 
 
