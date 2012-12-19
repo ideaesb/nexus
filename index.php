@@ -13,9 +13,6 @@
  $result=pg_query($conn, "SELECT COUNT(*) FROM paw");
  $paws = pg_fetch_result($result, 0, 0);
 
- $result=pg_query($conn, "SELECT COUNT(*) FROM asmt");
- $asmts = pg_fetch_result($result, 0, 0);
-
  $result=pg_query($conn, "SELECT COUNT(*) FROM org");
  $orgs = pg_fetch_result($result, 0, 0);
 
@@ -103,11 +100,11 @@ $("#map area").hover(
 
   <ul id="nav">
     <li id="nav-1"><a href="index.php"><span>&nbsp; HOME </span></a></li>
-    <li><a href="nexus/needs" title="Needs (<?php echo $needs ?>)"><span>Needs</span></a></li>
-    <li><a href="nexus/daps" title="Data, Products &amp; Services (<?php echo $daps ?> )"><span>Data, Products &amp; Services</span></a></li>
-    <li><a href="nexus/paws" title="Projects &amp; Activities (<?php echo $paws ?> )"><span>Projects &amp; Activities</span></a></li>
-    <li><a href="nexus/orgs" title="Partners &amp; Programs (<?php echo $orgs ?>)"><span>Programs &amp; Partners</span></a></li>
-    <li><a href="nexus/bibs" title="Bibliography (<?php echo $bibs ?>)"><span>Bibliography</span></a></li>
+    <li><a href="nexus/needs" title="Climate information (data, products, services) requested by managers, decision-makers, and research scientists"><span>Needs</span></a></li>
+    <li><a href="nexus/daps" title="Existing climate resources, including (but not limited to) models, reports, vulnerability assessments, visualization/web tools, etc"><span>Data, Products &amp; Services</span></a></li>
+    <li><a href="nexus/paws" title="Ongoing efforts such as climate-smart/adaptation initiatives, research projects, assessments, etc"><span>Projects &amp; Activities</span></a></li>
+    <li><a href="nexus/orgs" title="Partners &amp; Programs"><span>Programs &amp; Partners</span></a></li>
+    <li><a href="nexus/bibs" title="Bibliography"><span>Bibliography</span></a></li>
   </ul>
 
 
@@ -135,8 +132,12 @@ $("#map area").hover(
 </div><!--ends middle-column-->
 <div id="right-column">
 
- <p><strong>NEclimateUS.org</strong> (a.k.a. 'neXus') is a website serving as a gateway to a broad range of information related to climate in the Eastern US. It provides summaries of climate needs; information on the available resources including data, products and services; as well as planned and on-going climate-smart projects. Through it's searchable web-based platform, this diverse information is able to connect to a network of climate-focused programs and partners. </p>
-<p>The primary goals of this web portal are to recognize the needs of multiple users to raise the awareness of data providers to these needs in support of cohesive future research and efforts. Additionally, it is intended to serve as a shared resource for a wide audience, including research scientists, service providers, fish and wildlife managers, and decision-makers. As such, NEclimateUS.org has been built through the collaboration of and contributions from a family of agencies, institutions, and organizations to achieve these objectives. </p>
+ <p><strong>NEclimateUS.org</strong> (a.k.a. 'neXus') is a searchable online database that provides a gateway to climate information for the Eastern US. It summarizes needs for climate information as articulated in publications; identifies available data, products and services; and captures planned and on-going projects. The goal is to offer a tool to search for regionally relevant climate information, and to facilitate collaborative opportunities across the network of climate-focused programs and partners in the Eastern US.
+
+NeclimateUS.org is in its early stages of development.  Content will change with time to reflect developments in climate work within the region, and in response to individual sector needs when necessary.
+
+For detailed information about the content of NEclimateUS.org and tips for using the site, please visit <font style="background:yellow; font-style:italic"><a href="docs/aboutNEClimateUS.org.pdf" target="_blank">about NEclimateUS.org</a></font>.  
+</p>
      <br/>
 </div>
    

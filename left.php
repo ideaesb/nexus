@@ -8,6 +8,7 @@
    <li id="leftNavOrganizations"><a href="nexus/paws" title="Ongoing efforts such as climate-smart/adaptation initiatives, research projects, assessments, etc"><strong>Projects and Activities</strong></a></li>
    <li id="leftNavOrganizations"><a href="nexus/orgs">Programs &amp; Partners</a></li>
    <li id="leftNavOrganizations"><a href="nexus/bibs">Bibliography</a></li>
+   <li id="leftNavOrganizations"><a href="docs/aboutNEClimateUS.org.pdf" target="_blank"><strong>About</strong></a></li>
    <li id="leftNavOrganizations"><a href="http://www.noaaideacenter.org/rcsd/east/" target="_blank">Contact Us</a></li>
   </ul>
 
