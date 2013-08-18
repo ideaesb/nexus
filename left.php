@@ -9,7 +9,7 @@
    <li id="leftNavOrganizations"><a href="nexus/orgs">Programs &amp; Partners</a></li>
    <li id="leftNavOrganizations"><a href="nexus/bibs">Bibliography</a></li>
    <li id="leftNavOrganizations"><a href="docs/aboutNEClimateUS.org.pdf" target="_blank">About</a></li>
-   <li id="leftNavOrganizations"><a href="http://www.noaaideacenter.org/rcsd/east/" target="_blank">Contact Us</a></li>
+   <li id="leftNavOrganizations"><a href="http://www.rcsdhome.org/node/3" target="_blank">Contact Us</a></li>
   </ul>
 
   <img id="canyon" src="images/nexus-icon.png" /><br>

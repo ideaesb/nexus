@@ -2,6 +2,13 @@
   header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
   header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 
+  $needs = 0;
+  $daps = 0;
+  $paws = 0;
+  $orgs = 0;
+  $bibs = 0;
+
+ /*
  $conn = pg_connect("dbname=epiko user=postgres password=admin123");
 
  $result=pg_query($conn, "SELECT COUNT(*) FROM need");
@@ -20,6 +27,12 @@
  $bibs = pg_fetch_result($result, 0, 0);
 
  pg_close ($conn);
+
+ */
+
+ 
+
+
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
