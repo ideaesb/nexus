@@ -311,11 +311,10 @@ img
 	margin-top:10px;
 }
 
-.secontainer{
+#secontainer{
 	width:800px;
 	overflow:hidden;
 	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
-	line-height:16px;
 }
 
 
@@ -323,16 +322,11 @@ img
 
 #midde-column {
 	width:350px;
-	height:500px;
 	margin: 0; /* the auto margins (in conjunction with a width) center the page */
 	font-size: 14px;
 	line-height:18px;
 	padding-top:6px;
 	float:left;
-
-	margin-bottom:20px;
-
-
 } 
 
 #middle-column #outermap {  
@@ -350,7 +344,6 @@ img
 
 #right-column { 
 	width: 225px; 
-	height:500px;
 	float: left; 
 	padding-left:25px;
 	padding-top:12px;
@@ -361,7 +354,7 @@ img
 	float:left;
 	width:128px;
 	background-color: #CCC;
-	padding:20px 10px 20px 20px;
+	padding:20px 10px 10px 20px; /* top right bottom left */
 	margin-top:0;
 }
 

@@ -1,0 +1,18 @@
+[08-May-2014 06:56:59 UTC] PHP Warning:  file_get_contents(contents.html): failed to open stream: No such file or directory in C:\websites\nexus\gmail.php on line 57
+[08-May-2014 07:09:23 UTC] PHP Parse error:  syntax error, unexpected '=' in C:\websites\nexus\gmail.php on line 78
+[08-May-2014 07:09:39 UTC] PHP Notice:  Undefined variable: name in C:\websites\nexus\gmail.php on line 81
+[08-May-2014 07:09:39 UTC] PHP Notice:  Undefined variable: email in C:\websites\nexus\gmail.php on line 82
+[08-May-2014 07:09:39 UTC] PHP Notice:  Undefined variable: question in C:\websites\nexus\gmail.php on line 82
+[08-May-2014 07:09:39 UTC] PHP Notice:  Undefined variable: email in C:\websites\nexus\gmail.php on line 85
+[08-May-2014 07:09:39 UTC] PHP Notice:  Undefined variable: header in C:\websites\nexus\gmail.php on line 88
+[08-May-2014 07:09:39 UTC] PHP Warning:  stream_socket_enable_crypto(): this stream does not support SSL/crypto in C:\websites\nexus\email\class.smtp.php on line 273
+[08-May-2014 07:14:22 UTC] PHP Notice:  Undefined variable: question in C:\websites\nexus\gmail.php on line 78
+[08-May-2014 07:14:22 UTC] PHP Notice:  Undefined variable: email in C:\websites\nexus\gmail.php on line 80
+[08-May-2014 07:14:22 UTC] PHP Notice:  Undefined variable: header in C:\websites\nexus\gmail.php on line 83
+[08-May-2014 07:15:41 UTC] PHP Warning:  stream_socket_enable_crypto(): this stream does not support SSL/crypto in C:\websites\nexus\email\class.smtp.php on line 273
+[08-May-2014 07:19:05 UTC] PHP Warning:  stream_socket_enable_crypto(): this stream does not support SSL/crypto in C:\websites\nexus\email\class.smtp.php on line 273
+[12-Jun-2014 09:43:20 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\websites\nexus\index.php on line 38
+[12-Jun-2014 09:43:41 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\websites\nexus\index.php on line 38
+[12-Jun-2014 09:44:17 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\websites\nexus\index.php on line 38
+[12-Jun-2014 09:44:48 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\websites\nexus\index.php on line 38
+[12-Jun-2014 09:46:40 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\websites\nexus\index.php on line 38

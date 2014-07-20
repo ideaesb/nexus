@@ -30,7 +30,8 @@
 
  */
 
- 
+$domain = $_SERVER['SERVER_NAME'];
+$full_url = "http://{$domain}";
 
 
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -107,27 +108,15 @@ $("#map area").hover(
 
 <div id="mainContainer"> <!--keeps everything in one box -->
   
-<div id="header">
-  <img src="images/bluelogo.jpg" />
-</div>
 
-  <ul id="nav">
-    <li id="nav-1"><a href="index.php"><span>&nbsp; HOME </span></a></li>
-    <li><a href="nexus/needs" title="Climate information (data, products, services) requested by managers, decision-makers, and research scientists"><span>Needs</span></a></li>
-    <li><a href="nexus/daps" title="Existing climate resources, including (but not limited to) models, reports, vulnerability assessments, visualization/web tools, etc"><span>Data, Products &amp; Services</span></a></li>
-    <li><a href="nexus/paws" title="Ongoing efforts such as climate-smart/adaptation initiatives, research projects, assessments, etc"><span>Projects &amp; Activities</span></a></li>
-    <li><a href="nexus/orgs" title="Partners &amp; Programs"><span>Programs &amp; Partners</span></a></li>
-    <li><a href="nexus/bibs" title="Bibliography"><span>Bibliography</span></a></li>
-  </ul>
+ <?php include 'nav.php'; ?>
 
-
- <?php include 'left.php'; ?>
 
  
 <div id="midde-column"> <!--container that holds main text and map -->
 	<div id="outermap">
      
-<img src="images/map.jpg" id="nemap" width="350" height="317" border="0" usemap="#Map" />
+<img src="images/map.jpg" id="nemap" width="350" border="0" usemap="#Map" />
 <map name="Map" id="map">
     <area id="map-1" shape="poly" coords="70,11,70,72,79,91,95,94,114,106,131,107,132,112,164,112,177,100,180,90,188,75,193,71,198,74,206,74,210,80,210,100,217,111,235,136,278,112,304,95,349,66,350,-1,69,0,71,11,143,113" href="#">
     <area id="map-2" shape="poly" coords="143,113,144,135,140,177,163,172,180,169,174,151,181,133,194,129,208,122,219,117,209,101,209,79,202,74,191,73,181,90,169,110,142,113" href="#">
@@ -140,31 +129,17 @@ $("#map area").hover(
  </div>
 
 
-   <p><i>This website was developed through the collaborative efforts of NOAA, NALCC, NWF and EPA.</i> </p>
+   <p><i>This online database was developed through the collaborative efforts of the National Oceanic and Atmospheric Administration, North Atlantic Landscape Conservation Cooperative, National Wildlife Federation and Environment Canada.</i> </p>
   
 </div><!--ends middle-column-->
 <div id="right-column">
-
- <p><strong>NEclimateUS.org</strong> (a.k.a. 'neXus') is a searchable online database that provides a gateway to climate information for the Eastern US. It summarizes needs for climate information as articulated in publications; identifies available data, products and services; and captures planned and on-going projects. The goal is to offer a tool to search for regionally relevant climate information, and to facilitate collaborative opportunities across the network of climate-focused programs and partners in the Eastern US.
-
-NeclimateUS.org is in its early stages of development.  Content will change with time to reflect developments in climate work within the region, and in response to individual sector needs when necessary.
-
-For detailed information about the content of NEclimateUS.org and tips for using the site, please visit <font style="background:yellow; font-style:italic"><a href="docs/aboutNEClimateUS.org.pdf" target="_blank">about NEclimateUS.org</a></font>.  
-</p>
-     <br/>
+<?php include 'right.php'; ?>
 </div>
-   
-   
+
+ <?php include 'footer.php'; ?>
+  
 </div><!--ends mainContainer-->
   
-
-
-<div class="secontainer"> 
- <?php include 'footer.php'; ?>
-</div>
-
-
-
 
 
 </body>
