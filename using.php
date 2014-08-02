@@ -40,6 +40,7 @@
 <title>Contact Sheet</title>
 <link rel="stylesheet" type="text/css" href="css/home.css" />
 <link href='http://fonts.googleapis.com/css?family=Rosario:400,400italic' rel='stylesheet' type='text/css'>
+<script src="js/analyticstracking.js" type="text/javascript"></script>
 </head>
 <body>
 

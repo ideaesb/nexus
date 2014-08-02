@@ -35,7 +35,7 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "nexus.inquiry@gmail.com";
+$mail->Username = "nexus.inquiry";
 
 //Password to use for SMTP authentication
 $mail->Password = "noaa2014gom05";
@@ -97,6 +97,7 @@ $mail->do_debug = 0;
 <title>Contact Sheet</title>
 <link rel="stylesheet" type="text/css" href="css/home.css" />
 <link href='http://fonts.googleapis.com/css?family=Rosario:400,400italic' rel='stylesheet' type='text/css'>
+<script src="js/analyticstracking.js" type="text/javascript"></script>
 </head>
 <body>
 

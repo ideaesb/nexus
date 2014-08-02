@@ -47,6 +47,7 @@ $full_url = "http://{$domain}";
 <script src="js/jquery.js" type="text/javascript"></script>
 
 
+
 <script type='text/javascript'>
 
 function preload(arrayOfImages) {
@@ -96,7 +97,7 @@ $("#map area").hover(
 
 
 
-
+<script src="js/analyticstracking.js" type="text/javascript"></script>
 </head>
 
 
